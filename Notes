@@ -1,0 +1,4 @@
+Add a loading animation to the account creation form. Add name="" to the same forms. Add captcha.
+Add unsubscribe / delete account, so users do not get spammed if they are signed up by someone else. More importantly, send an e-mail with a verification request. 
+Fix javascript's account creation REGEX: it does not allow for _ or . 
+Hide password field

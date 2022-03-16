@@ -1,0 +1,165 @@
+a:link{color:#ccc;}
+a:visited{color:#ccc;}
+
+a.rss{display: inline-block; margin-bottom:5px; margin-left:30px; text-decoration:none;}
+a.rss:visited{margin-bottom:10px; color:#888;}
+a.rss:link{color:#ccc;}
+
+body {
+	background-color:#272822; 
+	color:#bbb;
+}
+
+div.body{
+margin: 20px 20px 20px 20px;
+}
+
+hidden{color:#333;
+}
+
+div.qaRowsCSS {
+	border:1px; 
+	border-style:ridge; 
+	border-color:#777;
+	margin-bottom:8px; 
+	display:none;
+}
+
+div.questionColumnCSS {
+	margin-left:20px; 
+	width:300px; 
+	display:inline-block; 
+}
+
+div.answerColumnCSS {
+	width:300px; 
+	display:inline-block;
+}
+
+div.saverowCSS{
+	display:inline-block;
+	width:40px;
+}
+
+div.subjects{
+	display:inline-block;
+}
+
+div.qaRowSubjectsCSS{
+	display:inline-block;
+	margin-left:5px;
+}
+
+textarea.questioninputcss {
+	color:#bbb;
+	background-color:#222;
+	overflow:hidden;
+	width:250px;
+	border-color:#CFAE00;
+	min-height:30px;
+	/*border-color:#ffd700;*/
+	/*border-color:#ccc;*/
+}
+
+textarea.questioninputcssHidden {
+	color:#111;
+	background-color:#111;
+	overflow:hidden;
+	min-width:250px;
+	border-color:#8C7601;
+	min-height:30px;
+}
+
+textarea.questioninputcssHidden:hover {
+	/*transition: color 700ms linear;*/
+	transition-delay:.5s;
+	color:#bbb;
+}
+
+textarea.answerinputcss {
+	color:#bbb;
+	background-color:#222;
+	overflow:hidden;
+	min-width:250px;
+	border-color:#CFAE00;
+	min-height:30px;
+	/*border-color:#ccc;*/
+}
+
+textarea.answerinputcssHidden {
+		
+	color:#111;
+	background-color:#111;
+	overflow:hidden;
+	min-width:250px;
+	border-color:#8C7601;
+	min-height:30px;
+}
+
+textarea.answerinputcssHidden:hover {
+	transition-delay:.5s;
+	/*transition: color 700ms linear;*/
+	color:#bbb;
+}
+
+textarea.questioninputsavedCSS {
+	background-color:#000;
+	overflow:hidden;
+	width:250px;
+	border-color:#FFD600;
+}
+
+textarea.answerinputsavedCSS {
+	
+	background-color:#000;
+	overflow:hidden;
+	width:250px;
+	border-color:#FFD600;
+}
+
+div.deleterowCSS{
+	display:inline-block;
+}
+
+#togglequestions {
+	display:inline;
+}
+#toggleanswers {
+	display:inline;
+}
+
+#toggleall {
+	display:inline;
+}
+
+#togglerandom {
+	display:inline;
+}
+
+#reset {
+	display:inline;
+}
+
+#resetanswers {
+	display:inline;
+}
+
+#resetquestions {
+	display:inline;
+}
+
+#inlinejunk {
+	display:inline;
+}
+
+#subjects {
+	display:none;
+}
+
+.ui-qarows-placeholder{/* This adds a checkerboard snap-to when moving
+                            sortable elements.
+    border: 3px dashed #aaa;
+    height: 45px;
+    width: 344px;
+    background: #ccc;*/
+}
